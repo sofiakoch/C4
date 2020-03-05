@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <title>Högskolan i Borås</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="topnav">
+      <a class="active" href="#Startsida">Högskolan i Borås</a>
+      <!--Här skapar jag en navigation med inloggningsformulär -->
+      <div class="login-container">
+        <form id="login-form" onsubmit="return login()">
+          <input type="text" placeholder="Student" name="username" />
+          <input type="text" placeholder="Lösenord" name="password" />
+          <button type="submit">Logga in</button>
+        </form>
+      </div>
+    </div>
+
+    <main>
+      <img class="bild" src="people.jpg" alt="Studenter" />
+      <!--Här har jag lagt in en bild till startsidan-->
+      <div class="framtid">Här finns din framtid</div>
+    </main>
+    <footer>
+      <div class="footer">Copyright by 2020 - Högskolan i Borås</div>
+    </footer>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <!--Här har anropar jag .js-->
+  <script src="index.js"></script>
+</html>

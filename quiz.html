@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <title>Högskolan i Borås</title>
+    <link rel="stylesheet" type="text/css" href="quiz.css" />
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="topnav">
+      <a class="active" href="index.html">Högskolan i Borås</a>
+      <!--Här skapar jag en navigation med inloggningsformulär -->
+    </div>
+    <main>
+      <div id="fragor"></div>
+      <input type="button" value="Resultat" onclick="kollaResultat()" />
+      <!-- skapar en knapp för att kunna kolal resultatet-->
+      <div id="resultat"></div>
+      <div id="rattaSvar">
+        <div>Rätta svar</div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">Copyright by 2020 - Högskolan i Borås</div>
+    </footer>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <!--Här har anropar jag .js-->
+  <script src="quiz.js"></script>
+</html>

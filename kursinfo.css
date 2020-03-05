@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgb(34, 136, 102);
+  color: white;
+}
+
+.topnav .login-container {
+  float: right;
+}
+
+.topnav input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width: 120px;
+}
+
+.topnav .login-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background-color: rgb(34, 136, 102);
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .login-container button:hover {
+  background-color: rgb(92, 175, 92);
+}
+
+h1 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+h2 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+h3 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.hello {
+  text-align: center;
+}
+
+#kurser {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#kurser tr,
+#kurser th {
+  padding: 10px;
+  text-align: center;
+}
+
+#kurser tr {
+  background-color: rgb(198, 235, 212);
+  border: 1px solid rgb(163, 161, 161);
+}
+
+#kurser th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(117, 172, 138);
+  color: white;
+  padding: 8px;
+  text-transform: uppercase;
+}
+
+.quiz {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+.quiz a {
+  text-align: center;
+  font-family: Verdana, Tahoma, sans-serif;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: rgb(10, 87, 42);
+}
+
+.footer {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}

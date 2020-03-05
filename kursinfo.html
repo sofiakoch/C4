@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <title>Högskolan i Borås</title>
+    <link rel="stylesheet" type="text/css" href="kursinfo.css" />
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="topnav">
+      <!--Här skapar jag en navigation med inloggningsformulär -->
+      <a class="active" href="index.html">Högskolan i Borås</a>
+    </div>
+
+    <h1 class="hello">Välkommen!</h1>
+    <h2 class="hello">Här ser du dina kurser</h2>
+    <!-- Skapar classer för att kunna styla i css-->
+    <table id="kurser">
+      <tr>
+        <!-- Skapar id för att kunna koppla ihop koderna i "kursinfo.js-->
+        <th>Kurs id</th>
+        <th>Kursnamn</th>
+        <th>Poäng</th>
+        <th>Universitet</th>
+        <th>Start / vecka</th>
+        <th>Avslut / vecka</th>
+      </tr>
+    </table>
+
+    <div class="quiz">
+      <h2>Pröva dina kunskaper</h2>
+      <!--Här skapar jag en länk till quizet och i css desginar jag den som en knapp-->
+      <a href="quiz.html">QUIZ</a>
+    </div>
+
+    <footer>
+      <div class="footer">Copyright by 2020 - Högskolan i Borås</div>
+    </footer>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <!--Här har anropar jag .js-->
+  <script src="kursinfo.js"></script>
+</html>
